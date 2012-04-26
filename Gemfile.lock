@@ -99,8 +99,7 @@ GEM
       execjs (>= 0.3.0)
       multi_json (>= 1.0.2)
 
-PLATFORMS
-  
+
   coffee-rails (~> 3.2.1)
   jquery-rails
   json
