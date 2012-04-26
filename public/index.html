@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tic-Tac-Toe</title>
+<link href="stylesheets/tic_tac_style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js?ver=1.4.0"></script>  
+<script type="text/javascript" src="javascripts/ttt_script.js"></script>
+</head>
+
+<body>
+<div onclick="change(this.id)" id="apDiv2" onmouseover="image(this.id)" onmouseout="changeBack(this.id)"></div>
+<div onclick="change(this.id)" id="apDiv4" onmouseover="image(this.id)" onmouseout="changeBack(this.id)"></div>
+<div onclick="change(this.id)" id="apDiv5" onmouseover="image(this.id)" onmouseout="changeBack(this.id)"></div>
+<div onclick="change(this.id)" id="apDiv6" onmouseover="image(this.id)" onmouseout="changeBack(this.id)"></div>
+<div onclick="change(this.id)" id="apDiv7" onmouseover="image(this.id)" onmouseout="changeBack(this.id)"></div>
+<div onclick="change(this.id)" id="apDiv8" onmouseover="image(this.id)" onmouseout="changeBack(this.id)"></div>
+<div onclick="change(this.id)" id="apDiv9" onmouseover="image(this.id)" onmouseout="changeBack(this.id)"></div>
+<div onclick="change(this.id)" id="apDiv10" onmouseover="image(this.id)" onmouseout="changeBack(this.id)"></div>
+<div id="apDiv13"></div>
+<div id="apDiv14">It's Your Turn:</div>
+<h1 id="yup">Tic-Tac-Toe</h1>
+<p><img src="images/tictactoeboard.jpg" width="400" height="400" /></p>
+<!--<div onclick="change(this.id)" id="apDiv1" onmouseover="image(this.id)"  onmouseout="changeBack(this.id)"></div>-->
+<div id="apDiv1" style="background-position: center center;
+    background-repeat: no-repeat;
+"></div>
+
+<table class="effect" width="300" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="3" class="centertext">Scores</td>
+  </tr>
+  <tr>
+    <td width="149" class="centerText">X's</td>
+    <td width="151" class="centerText">O's</td>
+    <td width="151" class="centerText">Ties</td>
+  </tr>
+  <tr>
+    <td class="centerText" id="xwins">0</td>
+    <td class="centerText" id="owins">0</td>
+    <td class="centerText" id="ties">0</td>
+
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
